@@ -1,6 +1,6 @@
 {
   "name": "@macrostrat/router-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Components to use React Router in Macrostrat",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -24,5 +24,6 @@
   },
   "devDependencies": {
     "microbundle": "^0.13.3"
-  }
+  },
+  "prettier": {}
 }
