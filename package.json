@@ -2,8 +2,11 @@
   "name": "@macrostrat/router-components",
   "version": "1.0.0",
   "description": "Components to use React Router in Macrostrat",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "index.ts",
   "scripts": {
+    "build": "microbundle -f es,cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daven Quinn",
@@ -17,5 +20,8 @@
     "@macrostrat/hyper": "^1.2.0",
     "@macrostrat/ui-components": ">=0.5.0",
     "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
   }
 }
