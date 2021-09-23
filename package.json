@@ -1,0 +1,21 @@
+{
+  "name": "@macrostrat/router-components",
+  "version": "1.0.0",
+  "description": "Components to use React Router in Macrostrat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daven Quinn",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.23.0",
+    "@macrostrat/hyper": "^1.2.0",
+    "@macrostrat/ui-components": ">=0.5.0",
+    "classnames": "^2.3.1"
+  }
+}
